@@ -133,3 +133,6 @@ def FCCFEA01(X, Y, Z, R, OF, File):
     TextFile.write('The volume fraction (porosity) of the cube - ' + str(Porosity) + '\n')
 
     TextFile.close()
+
+File = str('E:/05 Python/13 testing/')
+FCCFEA01(4, 5, 6, 2, 0.97, File)
